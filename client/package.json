@@ -15,12 +15,17 @@
     "emotion": "^9.2.12",
     "graphql": "^14.4.2",
     "graphql-tag": "^2.10.1",
+    "kind-of": "^6.0.3",
+    "lodash.template": "^4.5.0",
+    "mixin-deep": "^2.0.1",
     "polished": "^3.4.1",
     "react": "^16.9.0-alpha.0",
     "react-dom": "^16.9.0-alpha.0",
     "react-emotion": "^9.2.12",
     "react-scripts": "^3.4.1",
-    "typescript": "^3.7.3"
+    "set-value": "^3.0.2",
+    "typescript": "^3.7.3",
+    "websocket-extensions": "^0.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
