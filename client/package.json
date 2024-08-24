@@ -51,6 +51,6 @@
     "@types/jest": "^24.0.23",
     "apollo": "^2.34.0",
     "artillery": "^2.0.10",
-    "npm-watch": "^0.6.0"
+    "npm-watch": "^0.13.0"
   }
 }
