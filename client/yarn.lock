@@ -102,9 +102,9 @@
   dependencies:
     "@apollographql/graphql-language-service-types" "^2.0.0"
 
-"@artilleryio/int-commons@2.12.0":
-  version "2.12.0"
-  resolved "https://registry.yarnpkg.com/@artilleryio/int-commons/-/int-commons-2.12.0.tgz#f9364f2ff9991924b390dbbb5b6226bf04536f52"
+"@artilleryio/int-commons@2.13.0":
+  version "2.13.0"
+  resolved "https://registry.yarnpkg.com/@artilleryio/int-commons/-/int-commons-2.13.0.tgz#19aaf7e4d96fd6ae03dada2802c80858c1bd045d"
   dependencies:
     async "^2.6.4"
     cheerio "^1.0.0-rc.10"
@@ -115,11 +115,11 @@
     lodash "^4.17.19"
     ms "^2.1.3"
 
-"@artilleryio/int-core@2.16.0":
-  version "2.16.0"
-  resolved "https://registry.yarnpkg.com/@artilleryio/int-core/-/int-core-2.16.0.tgz#8547e8bab5a8a2c67596c6a795bdb345203c6933"
+"@artilleryio/int-core@2.17.0":
+  version "2.17.0"
+  resolved "https://registry.yarnpkg.com/@artilleryio/int-core/-/int-core-2.17.0.tgz#21a4cbdc61c4da8aac27aeeb03cafe96d1210af6"
   dependencies:
-    "@artilleryio/int-commons" "2.12.0"
+    "@artilleryio/int-commons" "2.13.0"
     "@artilleryio/sketches-js" "^2.1.1"
     agentkeepalive "^4.1.0"
     arrivals "^2.1.2"
@@ -3278,17 +3278,17 @@
   version "0.11.0"
   resolved "https://registry.yarnpkg.com/@pkgjs/parseargs/-/parseargs-0.11.0.tgz#a77ea742fab25775145434eb1d2328cf5013ac33"
 
-"@playwright/browser-chromium@^1.48.0":
-  version "1.48.1"
-  resolved "https://registry.yarnpkg.com/@playwright/browser-chromium/-/browser-chromium-1.48.1.tgz#48431d6035c58c1dd7f00c31aa648113dc1648c3"
+"@playwright/browser-chromium@1.49.1":
+  version "1.49.1"
+  resolved "https://registry.yarnpkg.com/@playwright/browser-chromium/-/browser-chromium-1.49.1.tgz#0e2ae51a4ba870f11464693c075b8c60555d9736"
   dependencies:
-    playwright-core "1.48.1"
+    playwright-core "1.49.1"
 
-"@playwright/test@^1.48.0":
-  version "1.48.1"
-  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.48.1.tgz#343e710fcf2e559529e3ec8d7782e09f325b9396"
+"@playwright/test@1.49.1":
+  version "1.49.1"
+  resolved "https://registry.yarnpkg.com/@playwright/test/-/test-1.49.1.tgz#55fa360658b3187bfb6371e2f8a64f50ef80c827"
   dependencies:
-    playwright "1.48.1"
+    playwright "1.49.1"
 
 "@pmmmwh/react-refresh-webpack-plugin@^0.5.3":
   version "0.5.10"
@@ -5444,53 +5444,53 @@ arrivals@^2.1.2:
     debug "^4.0.1"
     nanotimer "0.3.14"
 
-artillery-engine-playwright@1.18.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/artillery-engine-playwright/-/artillery-engine-playwright-1.18.0.tgz#b53220bde785a24e2b0a9aa4b97b95cdbc97ea23"
+artillery-engine-playwright@1.19.0:
+  version "1.19.0"
+  resolved "https://registry.yarnpkg.com/artillery-engine-playwright/-/artillery-engine-playwright-1.19.0.tgz#f50eabc098b4a97aeb3e0ab76ef0b59b64078d79"
   dependencies:
-    "@playwright/browser-chromium" "^1.48.0"
-    "@playwright/test" "^1.48.0"
+    "@playwright/browser-chromium" "1.49.1"
+    "@playwright/test" "1.49.1"
     debug "^4.3.2"
-    playwright "^1.48.0"
+    playwright "1.49.1"
 
-artillery-plugin-apdex@1.12.0:
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/artillery-plugin-apdex/-/artillery-plugin-apdex-1.12.0.tgz#e32fe06e796a3b3f8262f169b99fb840a5331242"
+artillery-plugin-apdex@1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/artillery-plugin-apdex/-/artillery-plugin-apdex-1.13.0.tgz#c858d09cbf659eafb72abd8cb7e70d09eb86fa9d"
   dependencies:
     tap "^19.0.2"
 
-artillery-plugin-ensure@1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/artillery-plugin-ensure/-/artillery-plugin-ensure-1.15.0.tgz#80719c61b31f4a15567d31ccd59880c3e71178ed"
+artillery-plugin-ensure@1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/artillery-plugin-ensure/-/artillery-plugin-ensure-1.16.0.tgz#25bf3be8105ff4489149c6612ae19c47bfb29184"
   dependencies:
     chalk "^2.4.2"
     debug "^4.3.3"
     filtrex "^2.2.3"
 
-artillery-plugin-expect@2.15.0:
-  version "2.15.0"
-  resolved "https://registry.yarnpkg.com/artillery-plugin-expect/-/artillery-plugin-expect-2.15.0.tgz#f17e1c56f6fe5787430ee4b6a2f023842224d86c"
+artillery-plugin-expect@2.16.0:
+  version "2.16.0"
+  resolved "https://registry.yarnpkg.com/artillery-plugin-expect/-/artillery-plugin-expect-2.16.0.tgz#da29ddd512944f02c123453f58dd14cd53fc5a08"
   dependencies:
     chalk "^4.1.2"
     debug "^4.3.2"
     jmespath "^0.16.0"
     lodash "^4.17.21"
 
-artillery-plugin-fake-data@1.12.0:
-  version "1.12.0"
-  resolved "https://registry.yarnpkg.com/artillery-plugin-fake-data/-/artillery-plugin-fake-data-1.12.0.tgz#5c0e369433d3af91bae7794b5e9dda88d4696699"
+artillery-plugin-fake-data@1.13.0:
+  version "1.13.0"
+  resolved "https://registry.yarnpkg.com/artillery-plugin-fake-data/-/artillery-plugin-fake-data-1.13.0.tgz#5675c6045716279551b144d5afe29e4b23bdd394"
   dependencies:
     "@ngneat/falso" "^7.1.1"
 
-artillery-plugin-metrics-by-endpoint@1.15.0:
-  version "1.15.0"
-  resolved "https://registry.yarnpkg.com/artillery-plugin-metrics-by-endpoint/-/artillery-plugin-metrics-by-endpoint-1.15.0.tgz#3b2b6adb9d16370849a3afea5c7bb5d62aa3247b"
+artillery-plugin-metrics-by-endpoint@1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/artillery-plugin-metrics-by-endpoint/-/artillery-plugin-metrics-by-endpoint-1.16.0.tgz#ac6eeb243f68c0b891e7539b5700c78589e2fc0d"
   dependencies:
     debug "^4.3.2"
 
-artillery-plugin-publish-metrics@2.26.0:
-  version "2.26.0"
-  resolved "https://registry.yarnpkg.com/artillery-plugin-publish-metrics/-/artillery-plugin-publish-metrics-2.26.0.tgz#fb1e8b328432467633d96fedc8dfd60d60cf9fd3"
+artillery-plugin-publish-metrics@2.27.0:
+  version "2.27.0"
+  resolved "https://registry.yarnpkg.com/artillery-plugin-publish-metrics/-/artillery-plugin-publish-metrics-2.27.0.tgz#69a43cc21724c4feb771c51fdd71927030aa38d2"
   dependencies:
     "@aws-sdk/client-cloudwatch" "^3.370.0"
     "@opentelemetry/api" "^1.4.1"
@@ -5518,19 +5518,19 @@ artillery-plugin-publish-metrics@2.26.0:
     semver "^7.3.5"
     uuid "^8.3.2"
 
-artillery-plugin-slack@1.10.0:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/artillery-plugin-slack/-/artillery-plugin-slack-1.10.0.tgz#3194e488adf40371ce5a99152f48b3f1b8383693"
+artillery-plugin-slack@1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/artillery-plugin-slack/-/artillery-plugin-slack-1.11.0.tgz#ecc5103e6f96e379929142c149c0ccfedaaa2046"
   dependencies:
     debug "^4.3.4"
     got "^11.8.5"
 
-artillery@^2.0.21:
-  version "2.0.21"
-  resolved "https://registry.yarnpkg.com/artillery/-/artillery-2.0.21.tgz#c70d5a3819ab4458d1e2aaca6827717ffe18a19e"
+artillery@^2.0.22:
+  version "2.0.22"
+  resolved "https://registry.yarnpkg.com/artillery/-/artillery-2.0.22.tgz#19bd78a1bb252f7b73ae5dbf5055481aa2d8b259"
   dependencies:
-    "@artilleryio/int-commons" "2.12.0"
-    "@artilleryio/int-core" "2.16.0"
+    "@artilleryio/int-commons" "2.13.0"
+    "@artilleryio/int-core" "2.17.0"
     "@aws-sdk/credential-providers" "^3.127.0"
     "@azure/arm-containerinstance" "^9.1.0"
     "@azure/identity" "^4.2.0"
@@ -5540,14 +5540,14 @@ artillery@^2.0.21:
     "@oclif/plugin-help" "^6.2.13"
     "@oclif/plugin-not-found" "^3.2.22"
     archiver "^5.3.1"
-    artillery-engine-playwright "1.18.0"
-    artillery-plugin-apdex "1.12.0"
-    artillery-plugin-ensure "1.15.0"
-    artillery-plugin-expect "2.15.0"
-    artillery-plugin-fake-data "1.12.0"
-    artillery-plugin-metrics-by-endpoint "1.15.0"
-    artillery-plugin-publish-metrics "2.26.0"
-    artillery-plugin-slack "1.10.0"
+    artillery-engine-playwright "1.19.0"
+    artillery-plugin-apdex "1.13.0"
+    artillery-plugin-ensure "1.16.0"
+    artillery-plugin-expect "2.16.0"
+    artillery-plugin-fake-data "1.13.0"
+    artillery-plugin-metrics-by-endpoint "1.16.0"
+    artillery-plugin-publish-metrics "2.27.0"
+    artillery-plugin-slack "1.11.0"
     async "^2.6.4"
     aws-sdk "^2.1338.0"
     chalk "^2.4.2"
@@ -5572,7 +5572,7 @@ artillery@^2.0.21:
     moment "^2.29.4"
     nanoid "^3.3.4"
     ora "^4.0.4"
-    posthog-node "^2.2.3"
+    posthog-node "^4.2.1"
     rc "^1.2.8"
     sqs-consumer "5.8.0"
     temp "^0.9.4"
@@ -5684,12 +5684,13 @@ axe-core@^4.6.2:
   version "4.7.2"
   resolved "https://registry.yarnpkg.com/axe-core/-/axe-core-4.7.2.tgz#040a7342b20765cb18bb50b628394c21bccc17a0"
 
-axios@^0.27.0:
-  version "0.27.2"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.27.2.tgz#207658cc8621606e586c85db4b41a750e756d972"
+axios@^1.7.4:
+  version "1.8.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.8.2.tgz#fabe06e241dfe83071d4edfbcaa7b1c3a40f7979"
   dependencies:
-    follow-redirects "^1.14.9"
+    follow-redirects "^1.15.6"
     form-data "^4.0.0"
+    proxy-from-env "^1.1.0"
 
 axobject-query@^3.1.1:
   version "3.2.1"
@@ -8169,9 +8170,13 @@ flatted@^3.1.0:
   version "3.2.7"
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.7.tgz#609f39207cb614b89d0765b477cb2d437fbf9787"
 
-follow-redirects@^1.0.0, follow-redirects@^1.14.9:
+follow-redirects@^1.0.0:
   version "1.15.4"
   resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.4.tgz#cdc7d308bf6493126b17ea2191ea0ccf3e535adf"
+
+follow-redirects@^1.15.6:
+  version "1.15.9"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.9.tgz#a604fa10e443bf98ca94228d9eebcc2e8a2c8ee1"
 
 for-each@^0.3.3:
   version "0.3.3"
@@ -11586,15 +11591,15 @@ pkg-up@^3.1.0:
   dependencies:
     find-up "^3.0.0"
 
-playwright-core@1.48.1:
-  version "1.48.1"
-  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.48.1.tgz#5fe28fb9a9326dae88d4608c35e819163cceeb23"
+playwright-core@1.49.1:
+  version "1.49.1"
+  resolved "https://registry.yarnpkg.com/playwright-core/-/playwright-core-1.49.1.tgz#32c62f046e950f586ff9e35ed490a424f2248015"
 
-playwright@1.48.1, playwright@^1.48.0:
-  version "1.48.1"
-  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.48.1.tgz#2a920cfbec4572c84789e757d8b044baaed49435"
+playwright@1.49.1:
+  version "1.49.1"
+  resolved "https://registry.yarnpkg.com/playwright/-/playwright-1.49.1.tgz#830266dbca3008022afa7b4783565db9944ded7c"
   dependencies:
-    playwright-core "1.48.1"
+    playwright-core "1.49.1"
   optionalDependencies:
     fsevents "2.3.2"
 
@@ -12112,11 +12117,11 @@ postcss@^8.3.5, postcss@^8.4.21, postcss@^8.4.23, postcss@^8.4.4:
     picocolors "^1.0.0"
     source-map-js "^1.0.2"
 
-posthog-node@^2.2.3:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/posthog-node/-/posthog-node-2.6.0.tgz#63665d85806a20ea023ea6ce9ac4e114e082a351"
+posthog-node@^4.2.1:
+  version "4.10.1"
+  resolved "https://registry.yarnpkg.com/posthog-node/-/posthog-node-4.10.1.tgz#65dde49c5ae2092b59d9a32f5c217f03470fdf57"
   dependencies:
-    axios "^0.27.0"
+    axios "^1.7.4"
 
 precinct@^11.0.5:
   version "11.0.5"
@@ -12303,6 +12308,10 @@ proxy-addr@~2.0.7:
   dependencies:
     forwarded "0.2.0"
     ipaddr.js "1.9.1"
+
+proxy-from-env@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
 
 psl@^1.1.33:
   version "1.9.0"
