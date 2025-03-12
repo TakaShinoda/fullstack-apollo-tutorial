@@ -50,7 +50,7 @@
     "@testing-library/react": "^8.0.7",
     "@types/jest": "^24.0.23",
     "apollo": "^2.34.0",
-    "artillery": "^2.0.21",
+    "artillery": "^2.0.22",
     "npm-watch": "^0.13.0"
   }
 }
